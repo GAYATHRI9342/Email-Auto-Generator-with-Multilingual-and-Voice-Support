@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up | Meeting Email Auto Generator</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+<div class="auth-container">
+    <div class="auth-card">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <p id="message" style="display:none;"></p>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" placeholder="Confirm your password" required>
+            <button type="submit">Sign Up</button>
+
+            <p class="redirect">
+                <a href="forgot.html">Forgot Password?</a><br>
+                Don't have an account? <a href="signup.html">Sign Up</a>
+            </p>
+        </form>
+    </div>
+</div>
+<script src="signup.js"></script>
+</body>
+</html>

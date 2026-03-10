@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="forgot.css">
+</head>
+<body>
+<div class="auth-container">
+    <div class="auth-card">
+        <h2>Reset Password</h2>
+        <p id="message" style="display:none;"></p>
+<form id="forgotForm">
+    <label>Email</label>
+    <input type="email" id="email" required>
+    <label>New Password</label>
+    <input type="password" id="password" required>
+    <button type="submit">Update Password</button>
+    <p class="redirect">
+        <a href="login.html">Back to Login</a>
+    </p>
+</form>
+        <p id="message" style="display:none;"></p>
+    </div>
+</div>
+<script src="forgot.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #3b82f6, #06b6d4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container */
+.auth-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card layout */
+.auth-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Heading */
+.auth-card h2 {
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+/* Labels */
+.auth-card label {
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input fields */
+.auth-card input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Input focus effect */
+.auth-card input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* Button */
+.auth-card button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Button hover */
+.auth-card button:hover {
+    background: #1e40af;
+}
+
+/* Redirect text */
+.auth-card .redirect {
+    margin-top: 15px;
+    font-size: 14px;
+}
+.auth-card .redirect a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: bold;
+}
+.auth-card .redirect a:hover {
+    text-decoration: underline;
+}
+
+/*signup message color*/
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.success {
+    color: green;
+}
+.error {
+    color: red;
+}
+
